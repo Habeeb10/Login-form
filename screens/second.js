@@ -8,7 +8,7 @@ export default function Second({ navigation, route }) {
   const icon = getIcon(title);
   return (
     <View style={styles.cont}>
-      <StatusBar style={"light"} />
+      <StatusBar style={"dark"} />
       <View style={styles.thompson}>
         <View style={styles.cont2}>
           <TouchableOpacity onPress={() => navigation.navigate("first")}>
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   },
   butt: {
     paddingHorizontal: 30,
-    marginTop: 50,
+
   },
   circle: {
     alignSelf: "center",
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   },
   ent: {
-    marginLeft: 120,
+    marginLeft: 100,
     alignItems: "center",
   },
   ledge: {
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   },
   have: {
     textAlign: "center",
-    marginTop: 20,
+    marginTop: 10,
     fontSize: 18,
     lineHeight: 20,
     fontWeight: "400",
@@ -103,6 +103,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     lineHeight: 50,
+    marginTop:5
   },
   cont: {
     flex: 1,
@@ -119,8 +120,10 @@ const styles = StyleSheet.create({
   event: {
     fontWeight: "bold",
     color: "white",
+  
   },
   tom: {
     color: "white",
+    
   },
 });

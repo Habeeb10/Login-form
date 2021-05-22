@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet, Text, TouchableOpacity } from "react-native";
 import { Abnormal, Heart, Up } from "../assets/svg";
 import { StatusBar } from "expo-status-bar";
-import { ItemCard } from "../cnmponents/CustomInput";
+import { ItemCard } from "../components/CustomInput";
 
 const EventList = [
   {
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     height: 60,
   },
   gloria: {
-    marginTop: 10,
+    justifyContent:"center"
   },
   events: {
     fontWeight: "bold",
