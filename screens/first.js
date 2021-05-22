@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginTop: 50,
-    height: 50,
+    height: 60,
   },
   gloria: {
     marginTop: 10,
