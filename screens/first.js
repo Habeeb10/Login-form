@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 50,
+    marginTop: 2e0,
     height: 60,
   },
   gloria: {
