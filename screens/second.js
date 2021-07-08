@@ -41,7 +41,7 @@ const getIcon = (title) => {
   switch (title) {
     case "Abnormal Activity":
       return (
-        <Abnormal style={styles.circle} stroke="white" width={90} height={90} />
+        <Abnormal style={styles.circle} stroke="white" width={0} height={90} />
       );
     case "Up at Night":
       return <Up style={styles.circle} stroke="white" width={90} height={90} />;
@@ -61,7 +61,6 @@ const styles = StyleSheet.create({
   },
   butt: {
     paddingHorizontal: 30,
-
   },
   circle: {
     alignSelf: "center",
@@ -103,7 +102,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     lineHeight: 50,
-    marginTop:5
+    marginTop: 5,
   },
   cont: {
     flex: 1,
@@ -120,10 +119,8 @@ const styles = StyleSheet.create({
   event: {
     fontWeight: "bold",
     color: "white",
-  
   },
   tom: {
     color: "white",
-    
   },
 });
